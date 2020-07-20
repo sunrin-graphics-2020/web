@@ -1,21 +1,7 @@
-# docker-lamp
+# web-php (DEPRECATED)
 
-Docker example with Apache, MySql 8.0, PhpMyAdmin and Php
+php 프레임워크 사용 불가능 
 
-- You can use MariaDB 10.1 if you checkout to the tag `mariadb-10.1` - contribution made by [luca-vercelli](https://github.com/luca-vercelli)
-- You can use MySql 5.7 if you checkout to the tag `mysql5.7`
-
-I use docker-compose as an orchestrator. To run these containers:
-
-```
-docker-compose up -d
-```
-
-Open phpmyadmin at [http://localhost:8000](http://localhost:8000)
-Open web browser to look at a simple php example at [http://localhost:8001](http://localhost:8001)
-
-Run mysql client:
-
-- `docker-compose exec db mysql -u root -p` 
-
-Enjoy !
++ 호스팅 환경이라 composer을 사용할 수 없음
++ php버전이 5.3이라서 프레임워크의 선택폭이 너무 좁아짐.
++ 아파치 설정파일 설정 불가능
